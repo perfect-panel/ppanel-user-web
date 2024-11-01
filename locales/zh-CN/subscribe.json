@@ -1,0 +1,31 @@
+{
+  "all": "全部",
+  "billing": {
+    "billingTitle": "商品账单",
+    "couponDiscount": "折扣码优惠",
+    "duration": "套餐时长",
+    "fee": "手续费",
+    "months": "个月",
+    "price": "价格",
+    "productDiscount": "商品折扣",
+    "total": "总价"
+  },
+  "buy": "购买",
+  "category": "类别",
+  "detail": {
+    "availableTraffic": "可用流量",
+    "connectedDevices": "同时连接 IP 数",
+    "connectionSpeed": "连接速度",
+    "productDetail": "商品详情"
+  },
+  "methods": {
+    "alipay_f2f": "支付宝(面对面)",
+    "balance": "余额",
+    "epay": "易支付",
+    "stripe_alipay": "Stripe(支付宝)",
+    "stripe_wechat_pay": "Stripe(微信)"
+  },
+  "perMonth": "月",
+  "productDescription": "商品描述",
+  "products": "商品"
+}

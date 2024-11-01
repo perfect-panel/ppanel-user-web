@@ -1,0 +1,15 @@
+{
+  "amount": "Amount",
+  "balance": "Balance",
+  "createdAt": "Time",
+  "title": "Account Balance",
+  "type": {
+    "0": "Type",
+    "1": "Recharge",
+    "2": "Withdrawal",
+    "3": "Purchase",
+    "4": "Refund",
+    "5": "Reward",
+    "6": "Commission"
+  }
+}

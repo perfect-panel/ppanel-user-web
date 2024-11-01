@@ -1,0 +1,26 @@
+{
+  "cancel": "取消",
+  "check": "查看",
+  "close": "关闭",
+  "closeSuccess": "工单关闭成功",
+  "closeWarning": "关闭工单后将无法继续回复。",
+  "confirm": "确认",
+  "confirmClose": "确认关闭工单吗？",
+  "createSuccess": "创建成功",
+  "createTicket": "创建工单",
+  "createTicketDescription": "工单24小时内回复哦",
+  "description": "描述",
+  "inputPlaceholder": "输入您的消息",
+  "reply": "回复",
+  "status": {
+    "0": "状态",
+    "1": "待处理",
+    "2": "处理中",
+    "3": "已解决",
+    "4": "已关闭"
+  },
+  "submit": "提交",
+  "ticketList": "工单列表",
+  "title": "标题",
+  "updatedAt": "更新时间"
+}

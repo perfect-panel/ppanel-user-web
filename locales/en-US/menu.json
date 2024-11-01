@@ -1,0 +1,12 @@
+{
+  "announcement": "Announcement List",
+  "dashboard": "Dashboard",
+  "document": "Documentation",
+  "logout": "Logout",
+  "order": "Order List",
+  "payment": "Order Details",
+  "profile": "Profile",
+  "subscribe": "Subscribe",
+  "ticket": "My Tickets",
+  "wallet": "Wallet"
+}

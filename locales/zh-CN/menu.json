@@ -1,0 +1,12 @@
+{
+  "announcement": "公告列表",
+  "dashboard": "主页",
+  "document": "使用文档",
+  "logout": "退出登录",
+  "order": "订单列表",
+  "payment": "订单详情",
+  "profile": "个人中心",
+  "subscribe": "购买订阅",
+  "ticket": "我的工单",
+  "wallet": "财务中心"
+}

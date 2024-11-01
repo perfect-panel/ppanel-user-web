@@ -1,0 +1,28 @@
+{
+  "accountSettings": {
+    "accountSettings": "Account Settings",
+    "loginPassword": "Login Password",
+    "newPassword": "New Password",
+    "passwordMismatch": "Passwords do not match",
+    "repeatNewPassword": "Repeat New Password",
+    "updatePassword": "Update Password",
+    "updateSuccess": "Update Successful"
+  },
+  "notify": {
+    "bind": "Bind",
+    "emailNotification": "Email Notification",
+    "notificationSettings": "Notification Settings",
+    "telegramId": "Telegram ID",
+    "telegramIdPlaceholder": "Enter Telegram ID",
+    "telegramNotification": "Telegram Notification",
+    "updateSuccess": "Update Successful"
+  },
+  "notifyEvent": {
+    "balanceChange": "Balance Change",
+    "finance": "Finance",
+    "login": "Login",
+    "notificationEvents": "Notification Events",
+    "subscribe": "Subscribe",
+    "updateSuccess": "Update Successful"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "empty": [
+    "Imagine this space filled with exciting content! For now, you'll have to use your imagination...",
+    "This area mysteriously disappeared, but we're summoning it back!",
+    "Oh no, nothing happened... Feel free to fill in the blank!",
+    "It's like discovering an empty stage at a concert... Why not go up and perform?",
+    "You've found a blank canvas! How about building a house?",
+    "This area is currently empty, but creativity starts here!",
+    "Nothing here... but don't worry, it's just the beginning!",
+    "This place was supposed to have a big surprise, but the surprise slipped away!",
+    "There's nothing here for now, like an empty snack cabinet.",
+    "This empty space is waiting for its protagonist to take the stage!"
+  ],
+  "request": {
+    "10001": "Database query failed, please try again later",
+    "10002": "Data update failed, please try again later",
+    "10003": "Data save failed, please try again later",
+    "10004": "Data deletion failed, please try again later",
+    "20001": "The username has already been registered",
+    "20002": "User not found",
+    "20003": "Incorrect password, please re-enter",
+    "20004": "Your account has been disabled",
+    "30001": "The node already exists",
+    "30002": "Node not found",
+    "30003": "The node group already exists",
+    "30004": "Node group not found",
+    "30005": "There is still data in the node group, cannot be deleted",
+    "400": "Request parameters are incorrect, please check and resubmit",
+    "40002": "Please retry after logging in",
+    "40003": "Invalid login information, please log in again",
+    "40004": "Login session has expired, please log in again",
+    "401": "Request is too frequent, please try again later",
+    "500": "Internal system error, we are urgently fixing it",
+    "undefined": "System error occurred, please try again later"
+  },
+  "table": {
+    "actions": "Actions",
+    "asc": "Ascending",
+    "desc": "Descending",
+    "hide": "Hide",
+    "pageInfo": "Page {current} of {total}",
+    "rowsPerPage": "Rows per page",
+    "selectedItems": "Selected {total} rows"
+  },
+  "unlimited": "Unlimited"
+}

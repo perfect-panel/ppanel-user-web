@@ -1,0 +1,20 @@
+{
+  "cancel": "Cancel",
+  "check": "Check",
+  "close": "Close",
+  "closeSuccess": "Closed successfully",
+  "closeWarning": "Once closed, the ticket cannot be operated on. Please proceed with caution.",
+  "confirm": "Confirm",
+  "confirmClose": "Are you sure you want to close?",
+  "createSuccess": "Creation successful",
+  "createTicket": "Create ticket",
+  "createTicketDescription": "We will reply to the ticket within 24 hours",
+  "description": "Description",
+  "inputPlaceholder": "Please enter your question, we will reply as soon as possible.",
+  "reply": "Reply",
+  "status": ["Status", "Pending Reply", "Pending Follow-up", "Resolved", "Closed"],
+  "submit": "Submit",
+  "ticketList": "Ticket List",
+  "title": "Title",
+  "updatedAt": "Updated At"
+}

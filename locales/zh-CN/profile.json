@@ -1,0 +1,28 @@
+{
+  "accountSettings": {
+    "accountSettings": "账户设置",
+    "loginPassword": "登录密码",
+    "newPassword": "新密码",
+    "passwordMismatch": "两次密码输入不一致",
+    "repeatNewPassword": "重复新密码",
+    "updatePassword": "更新密码",
+    "updateSuccess": "更新成功"
+  },
+  "notify": {
+    "bind": "绑定",
+    "emailNotification": "邮件通知",
+    "notificationSettings": "通知设置",
+    "telegramId": "Telegram ID",
+    "telegramIdPlaceholder": "输入 Telegram ID",
+    "telegramNotification": "Telegram 通知",
+    "updateSuccess": "更新成功"
+  },
+  "notifyEvent": {
+    "balanceChange": "余额变动",
+    "finance": "财务",
+    "login": "登录",
+    "notificationEvents": "通知事件",
+    "subscribe": "订阅",
+    "updateSuccess": "更新成功"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "all": "All",
+  "billing": {
+    "billingTitle": "Product Billing",
+    "couponDiscount": "Coupon Discount",
+    "duration": "Duration",
+    "fee": "Fee",
+    "months": "months",
+    "price": "Price",
+    "productDiscount": "Product Discount",
+    "total": "Total"
+  },
+  "buy": "Buy",
+  "category": "Category",
+  "detail": {
+    "availableTraffic": "Available Traffic",
+    "connectedDevices": "Connected Devices",
+    "connectionSpeed": "Connection Speed",
+    "productDetail": "Product Details"
+  },
+  "methods": {
+    "alipay_f2f": "Alipay (Face to Face)",
+    "balance": "Balance",
+    "epay": "Epay",
+    "stripe_alipay": "Stripe (Alipay)",
+    "stripe_wechat_pay": "Stripe (WeChat)"
+  },
+  "perMonth": "Per Month",
+  "productDescription": "Product Description",
+  "products": "Products"
+}

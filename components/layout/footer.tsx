@@ -7,35 +7,44 @@ import { Fragment } from 'react';
 
 import { Separator } from '@/components/ui/separator';
 import useGlobalStore from '@/hooks/use-global';
+import {
+  NEXT_PUBLIC_DISCORD_LINK,
+  NEXT_PUBLIC_EMAIL,
+  NEXT_PUBLIC_GITHUB_LINK,
+  NEXT_PUBLIC_INSTAGRAM_LINK,
+  NEXT_PUBLIC_LINKEDIN_LINK,
+  NEXT_PUBLIC_TELEGRAM_LINK,
+  NEXT_PUBLIC_TWITTER_LINK,
+} from '@/lib/env';
 
 const Links = [
   {
     icon: 'uil:envelope',
-    href: process.env.NEXT_PUBLIC_EMAIL ?? `mailto:${process.env.NEXT_PUBLIC_EMAIL}`,
+    href: NEXT_PUBLIC_EMAIL ?? `mailto:${NEXT_PUBLIC_EMAIL}`,
   },
   {
     icon: 'uil:telegram',
-    href: process.env.NEXT_PUBLIC_TELEGRAM_LINK,
+    href: NEXT_PUBLIC_TELEGRAM_LINK,
   },
   {
     icon: 'uil:twitter',
-    href: process.env.NEXT_PUBLIC_TWITTER_LINK,
+    href: NEXT_PUBLIC_TWITTER_LINK,
   },
   {
     icon: 'uil:discord',
-    href: process.env.NEXT_PUBLIC_DISCORD_LINK,
+    href: NEXT_PUBLIC_DISCORD_LINK,
   },
   {
     icon: 'uil:instagram',
-    href: process.env.NEXT_PUBLIC_INSTAGRAM_LINK,
+    href: NEXT_PUBLIC_INSTAGRAM_LINK,
   },
   {
     icon: 'uil:linkedin',
-    href: process.env.NEXT_PUBLIC_LINKEDIN_LINK,
+    href: NEXT_PUBLIC_LINKEDIN_LINK,
   },
   {
     icon: 'uil:github',
-    href: process.env.NEXT_PUBLIC_GITHUB_LINK,
+    href: NEXT_PUBLIC_GITHUB_LINK,
   },
 ];
 

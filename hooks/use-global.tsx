@@ -3,6 +3,7 @@ import UTF8 from 'crypto-js/enc-utf8';
 import { create } from 'zustand';
 
 import { extractDomain } from '@/lib';
+import { NEXT_PUBLIC_API_URL, NEXT_PUBLIC_SITE_URL } from '@/lib/env';
 import { queryUserInfo } from '@/services/user/user';
 
 interface ICommon extends API.GetGlobalConfigResponse {
@@ -75,7 +76,7 @@ export const useGlobalStore = create<GlobalStore>((set, get) => ({
     const { pan_domain, subscribe_domain, subscribe_path } = get().common.subscribe || {};
     const domains = subscribe_domain
       ? subscribe_domain.split('\n')
-      : [extractDomain(process.env.NEXT_PUBLIC_API_URL!)];
+      : [extractDomain(NEXT_PUBLIC_API_URL || NEXT_PUBLIC_SITE_URL || '')];
 
     return domains.map((domain) => {
       const enc_type = type ? Base64.stringify(UTF8.parse(type)) : '';

@@ -9,6 +9,7 @@ import { toast } from 'sonner';
 import { Button } from '@/components/ui/button';
 import useGlobalStore from '@/hooks/use-global';
 import { getRedirectUrl, setAuthorization } from '@/lib';
+import { NEXT_PUBLIC_DEFAULT_USER_EMAIL, NEXT_PUBLIC_DEFAULT_USER_PASSWORD } from '@/lib/env';
 import { cn } from '@/lib/utils';
 import { checkUser, resetPassword, userLogin, userRegister } from '@/services/common/auth';
 
@@ -28,8 +29,8 @@ export default function UserAuthForm() {
     email?: string;
     password?: string;
   }>({
-    email: process.env.NEXT_PUBLIC_DEFAULT_USER_EMAIL,
-    password: process.env.NEXT_PUBLIC_DEFAULT_USER_PASSWORD,
+    email: NEXT_PUBLIC_DEFAULT_USER_EMAIL,
+    password: NEXT_PUBLIC_DEFAULT_USER_PASSWORD,
   });
 
   const handleFormSubmit = async (params: any) => {
